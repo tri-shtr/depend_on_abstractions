@@ -1,7 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-  "extensions": [
-    "Oracle.oracle-java"
-  ]
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Oracle.oracle-java"
+      ]
+    }
+  }
 }
